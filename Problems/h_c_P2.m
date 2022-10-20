@@ -42,7 +42,7 @@ function hcdex = h_c_P2(x)
 %      CODE          *
 %*********************
 
-hcdex=[2*x(1)*x(2) 2*x(1);2*x(1) 0]                                            ;
+hcdex=[2*x(2) 2*x(1);2*x(1) 0]                                            ;
 hc_count          =       hc_count          + 1                                ;
 
 return                                                                         ;
